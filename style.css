@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #FFFFFF;
+    height: 100%;
+}
+
+header {
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.32);
+}
+
+.logo {
+    margin-left: 2vw;
+}
+
+nav {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.product, .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 20px;
+    height: 40px;
+    width: 150px;
+    color: #0A99FE;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: rgba(10, 153, 254, 0.1);
+}
+
+.product:hover, .contact:hover {
+    background-color: #0A99FE;
+    color: #FFFFFF;
+}
+
+main {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+section {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #1B1B1B;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    height: 275px;
+    width: 207px;
+    border-radius: 7px;
+    background-color: #F8F8F8;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li div {
+    height: 192px;
+    width: 207px;
+    background-color: #DADADA;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 85%;
+    border-radius: 7px;
+}
+
+.nome {
+    font-size: 20px;
+    color: #1B1B1B;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.price {
+    font-size: 16px;
+    color: #868383;
+}
